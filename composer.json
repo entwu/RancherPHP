@@ -1,5 +1,5 @@
 {
-  "name": "haswalt/rancher-php",
+  "name": "entwu/rancher-php",
   "type": "library",
   "description": "RancherPHP is PHP client library for interacting with the Rancher API",
   "keywords": ["web service", "rancher", "client", "docker"],
@@ -10,6 +10,11 @@
       "name": "Harry Walter",
       "email": "harry.walter@lqdinternet.com",
       "homepage": "http://harrywalter.co.uk"
+    },
+    {
+      "name": "Michal Mach",
+      "email": "vipmachu@gmail.com",
+      "homepage": "http://asdf.com"
     }
   ],
   "support": {
