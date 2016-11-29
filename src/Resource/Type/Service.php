@@ -61,6 +61,11 @@ class Service extends Resource
     protected $launchConfig;
 
     /**
+     * @var array
+     */
+    protected $secondaryLaunchConfigs;
+
+    /**
      * @var string
      */
     protected $scale;
@@ -238,6 +243,22 @@ class Service extends Resource
     public function setLaunchConfig($launchConfig)
     {
         $this->launchConfig = $launchConfig;
+    }
+
+    /**
+     * @return array
+     */
+    public function getSecondaryLaunchConfigs()
+    {
+        return $this->secondaryLaunchConfigs;
+    }
+
+    /**
+     * @param array $secondaryLaunchConfigs
+     */
+    public function setSecondaryLaunchConfigs($secondaryLaunchConfigs)
+    {
+        $this->secondaryLaunchConfigs = $secondaryLaunchConfigs;
     }
 
     /**
